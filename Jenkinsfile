@@ -56,6 +56,7 @@ python -m gunicorn app:app -b 0.0.0.0 -D && echo "Done"
 '''
 }
 }
+}
 stage ('Reminder') {
 steps {
 sh '''#!/bin/bash
